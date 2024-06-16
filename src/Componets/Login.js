@@ -22,6 +22,7 @@ export default function Login() {
         // save the authoken and redirect
         localStorage.setItem('token', json.authToken);
         navigate("/");
+        // Navigate.
     }
     else {
         alert('invalid credentials')
